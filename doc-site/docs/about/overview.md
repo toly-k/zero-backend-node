@@ -7,7 +7,7 @@ sidebar_position: 1
 This is a [Zero][zero] module which sets up a
 service which can be deployed to the environment set up with [zero-aws-eks-stack][zero-infra].
 
-The `/templates` folder is meant to be filled in via [Zero][zero] and results in Simple Go Service with a status endpoint. It also contains a simple CircleCI pipeline which defines how to build and deploy the service.
+The `/templates` folder is meant to be filled in via [Zero][zero] and results in Simple Node.js Service with a status endpoint. It also contains a simple CircleCI pipeline which defines how to build and deploy the service.
 
 This repository is language/business-logic agnostic; mainly showcasing some universal best practices:
 - Built in containerization with docker
